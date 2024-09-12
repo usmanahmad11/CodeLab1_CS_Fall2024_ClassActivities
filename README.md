@@ -1,6 +1,5 @@
-# classactivity-fall24
 
-# Python Exercises for Practice
+# Python Exercises for Practice- CODE LAB 1
 
 ## 1. Python Variables
 1. Create a variable `name` and store your full name in it. Then, print the value of `name`.
