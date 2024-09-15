@@ -1,0 +1,73 @@
+# Rewriting the code to complete the markdown content without truncation
+
+lecture_1_md_content = """
+# Lecture 1: Introduction to Python and Programming Concepts
+
+**Duration:** 1.5 hours
+
+---
+
+## **Learning Objectives:**
+- Understand what programming is and its importance.
+- Install Python and set up the programming environment.
+- Write your first Python program.
+
+---
+
+## 1. Introduction to Programming (15 minutes)
+
+### **1.1 What is Programming?**
+- **Definition:** Programming is the process of creating a set of instructions that tell a computer how to perform a task.
+- **Importance of Programming:**
+  - Programming is used to automate tasks, solve complex problems, create software applications, and much more.
+  - Discuss real-world applications such as web development, data analysis, artificial intelligence, and game development.
+
+- **Different Programming Languages:**
+  - Brief overview of popular programming languages: Python, Java, C++, JavaScript.
+  - Why Python? Explain its simplicity, readability, and extensive libraries that make it a great choice for beginners.
+
+### **1.2 How Computers Understand Programs**
+- Explain the role of compilers and interpreters in converting code into machine language.
+- Mention how Python is an interpreted language, which means it executes code line by line.
+
+---
+
+## 2. Setting Up the Python Environment (20 minutes)
+
+### **2.1 Installing Python**
+- **Windows:**
+  - Guide students to download and install Python from the official website [python.org](https://www.python.org/).
+  - Show how to verify the installation by typing `python --version` in the command prompt.
+
+- **Mac/Linux:**
+  - Explain that Python often comes pre-installed on these systems.
+  - Show how to check the version using `python3 --version` in the terminal.
+  - Guide students to install Python if it’s not present.
+
+### **2.2 Setting Up an IDE**
+- **Integrated Development Environments (IDEs):**
+  - Introduce popular IDEs like VSCode, PyCharm, and Jupyter Notebook.
+  - Explain why an IDE is useful for writing, testing, and debugging code.
+
+- **Installing VSCode:**
+  - Walk through the process of installing VSCode.
+  - Demonstrate how to install the Python extension in VSCode.
+
+- **Setting Up Jupyter Notebook (Optional):**
+  - Explain how Jupyter Notebook is great for interactive coding, especially for data science.
+  - Guide students to install it using `pip install notebook` and run it using `jupyter notebook`.
+
+---
+
+## 3. Writing Your First Python Program (15 minutes)
+
+### **3.1 Python Syntax and Structure**
+- **Basic Syntax:**
+  - Python uses indentation to define code blocks (no need for curly braces `{}`).
+  - Discuss how Python is case-sensitive.
+  - Variables don’t need explicit declaration; the type is inferred from the value assigned.
+
+### **3.2 Writing and Running a Simple Script**
+- **Hello, World! Program:**
+   ```python
+   print("Hello, World!")
