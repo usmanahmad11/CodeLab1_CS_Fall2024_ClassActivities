@@ -30,7 +30,7 @@ Write a program to calculate the price of a movie ticket based on the person's a
 2. Use an `if-elif-else` structure to determine the price of the ticket.
 3. Display the appropriate ticket price.
 
-
+---
 ## 3. Bank Withdrawal (Nested if-else)
 **Scenario:**  
 A customer is withdrawing money from their bank account. The withdrawal is only allowed if the account balance is sufficient. If the balance is above £1000, they get a VIP customer message. If the balance is below £100, they get a low-balance warning.
@@ -43,7 +43,7 @@ A customer is withdrawing money from their bank account. The withdrawal is only 
 5. If the balance is less than £100, print a low-balance warning.
 
 
-
+---
 
 ## 4. Weather and Outfit Selection (if-elif-else)
 **Scenario:**  
@@ -57,7 +57,7 @@ Based on the weather forecast, suggest an outfit:
 1. Ask the user to input the weather condition and temperature.
 2. Use an `if-elif-else` structure to suggest the appropriate outfit.
 
-
+---
 
 ## 5. Password Validation (Nested if-else)
 **Scenario:**  
