@@ -12,8 +12,7 @@ This document covers Python exercises related to tuples. Work through these exer
     # Creating a tuple
     fruits = ('apple', 'banana', 'cherry')
     print(fruits)
-    print(type(fruits))
-
+  
     # Trying to modify the tuple (will raise an error)
     # fruits[0] = 'orange'
     ```
