@@ -19,7 +19,7 @@ This document covers Python exercises related to tuples. Work through these exer
 
 2. **Accessing Elements**
     ```python
-    # Accessing elements by index
+
     print(fruits[1])  # Output: 'banana'
     print(fruits[-1])  # Output: 'cherry'
     ```
