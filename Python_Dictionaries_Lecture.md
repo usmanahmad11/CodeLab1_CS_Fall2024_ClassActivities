@@ -14,11 +14,7 @@ By the end of this lecture, students should be able to:
 
 ## Lecture Outline
 
-### 1. Introduction to Dictionaries (10 mins)
-- Explain dictionaries as a collection data type in Python.
-- Highlight the key-value pair structure.
-- Discuss unique keys and mutable values.
-- Use a simple analogy (like a contact book) to illustrate key-value relationships.
+
 
 **Code Example: Basic Dictionary**  
 ```python
@@ -32,9 +28,6 @@ print(student)
 ```
 
 ### 2. Creating Dictionaries (10 mins)
-- Discuss different methods to create a dictionary.
-- Using curly braces `{}` or the `dict()` function.
-- Mention dictionary comprehension briefly.
 
 **Code Example: Different Ways to Create a Dictionary**  
 ```python
@@ -126,8 +119,7 @@ else:
 ```
 
 ### 6. Nesting Dictionaries (10 mins)
-- Demonstrate how dictionaries can contain other dictionaries.
-- Use an example of a school with students' details as nested dictionaries.
+- 
 
 **Code Example: Nested Dictionary**  
 ```python
@@ -142,7 +134,7 @@ print(school["student2"]["GPA"])   # Output: 3.6
 ```
 
 ### 7. Real-World Application of Dictionaries (15 mins)
-- Show a practical example, such as a dictionary to store product details in an e-commerce inventory.
+Practical example, such as a dictionary to store product details in an e-commerce inventory.
 
 **Code Example: E-Commerce Inventory**  
 ```python
@@ -157,8 +149,7 @@ for item_id, details in inventory.items():
 ```
 
 ### 8. Class Activity: Building a Contact List (15 mins)
-- Have students create a simple contact book where each contact has details like name, phone number, and email stored in a dictionary.
-- Example task: Add a contact, update a contact, delete a contact, and search for a contact.
+- 
 
 **Activity Outline:**  
 ```python
