@@ -1,9 +1,6 @@
 
 # Python Dictionaries
 
-**Level:** UK Level 4  
-**Duration:** 1.5 hours
-
 ---
 
 ## Learning Objectives
