@@ -42,16 +42,8 @@ print("Sum:", add_numbers(5, 10))
 print("Product:", multiply_numbers(5, 10))
 ```
 
-## Example 4: Functions with Variable-Length Arguments
-```python
-# Function to calculate the average of any number of arguments
-def calculate_average(*numbers):
-    return sum(numbers) / len(numbers) if numbers else 0
 
-print("Average:", calculate_average(10, 20, 30, 40))
-```
-
-## Example 5: Functions Returning Multiple Values
+## Example 4: Functions Returning Multiple Values
 ```python
 # Function to return the sum and product of two numbers
 def sum_and_product(a, b):
@@ -63,7 +55,7 @@ print("Sum:", sum_result)
 print("Product:", product_result)
 ```
 
-## Example 6: Lambda Function
+## Example 5: Lambda Function
 ```python
 # Anonymous function to calculate the square of a number
 square = lambda x: x ** 2
