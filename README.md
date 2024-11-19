@@ -1,4 +1,4 @@
-Hello ## Coders
+# Dear Coders
 
 ## Purpose of Python Exercises for CodeLab 1 Students:
 
