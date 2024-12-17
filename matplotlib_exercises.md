@@ -144,46 +144,8 @@ plt.grid()
 plt.show()
 ```
 
-## 9. **Stacked Bar Chart**
-```python
-import matplotlib.pyplot as plt
-import numpy as np
 
-months = ['Jan', 'Feb', 'Mar']
-rent = [1000, 1000, 1000]
-utilities = [200, 180, 220]
-food = [300, 350, 400]
-transport = [150, 200, 180]
-
-plt.bar(months, rent, label='Rent')
-plt.bar(months, utilities, bottom=rent, label='Utilities')
-plt.bar(months, food, bottom=np.array(rent)+np.array(utilities), label='Food')
-plt.bar(months, transport, bottom=np.array(rent)+np.array(utilities)+np.array(food), label='Transport')
-
-plt.title('Monthly Expenses')
-plt.ylabel('Amount ($)')
-plt.legend()
-plt.show()
 ```
 
-## 10. **3D Surface Plot**
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-from mpl_toolkits.mplot3d import Axes3D
 
-x = np.linspace(-5, 5, 50)
-y = np.linspace(-5, 5, 50)
-x, y = np.meshgrid(x, y)
-z = np.sin(np.sqrt(x**2 + y**2))
-
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-ax.plot_surface(x, y, z, cmap='viridis')
-
-ax.set_title('3D Surface Plot')
-ax.set_xlabel('X-axis')
-ax.set_ylabel('Y-axis')
-ax.set_zlabel('Z-axis')
-plt.show()
 ```
